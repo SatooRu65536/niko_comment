@@ -51,7 +51,7 @@ const createWindow = () => {
       }
       ref2.remove();
     }
-  }
+  });
 };
 
 app.on('ready', createWindow);
